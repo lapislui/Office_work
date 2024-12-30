@@ -87,4 +87,12 @@ now creating group
     sudo groupadd grp1
     groups  
       
-modifying permissions with <b>chmod</b>
+modifying permissions with <b>chmod</b>  
+  
+    chmod u+x 1.txt  
+  
+adding write permission to user  
+  
+    chmod u-x 1.txt
+
+
