@@ -44,7 +44,10 @@ it prints output in terminal
   
     expr 21+2  
       
-it prints 21+2 as text on terminal
+it prints 21+2 as text on terminal  
+  
+    a=hello  
+    expr length $a
 
 
 
