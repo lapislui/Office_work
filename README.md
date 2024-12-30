@@ -36,9 +36,9 @@ export to set env var
   
 env - to see eviourment var  
   
-expr - to give expression  
+expr - to give expression    
   
-  'expr 21 + 2'  
+    expr 21 + 2 
 
 
 
