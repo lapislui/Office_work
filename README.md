@@ -67,4 +67,9 @@ Using multiple editor like vim
 -> O - text on prev line
 -> o - text on next line
 -> a - append text after cursor
--> A - append at end of line
+-> A - append at end of line  
+  
+    :wq  
+      
+saving and exiting vim editor  
+  
