@@ -104,3 +104,7 @@ chmod is for changing file permission and chown is changing ownership permission
 
 ![image](https://github.com/user-attachments/assets/020da7a7-f2df-4db5-ad61-4bdca73d825c)
 
+![image](https://github.com/user-attachments/assets/41f5aee4-b4b1-4215-aa9e-921cabdc9925)
+
+keval:x:1000:1000::/home/keval:/bin/sh (user keval is added in system as can be seen in last line)
+
