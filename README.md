@@ -79,4 +79,10 @@ creating user
 after creating user in system its foldr will be displayed in home user folder   
   
     cd ..
-    ls
+    ls  
+
+       
+now creating group  
+  
+    sudo groupadd grp1
+    
