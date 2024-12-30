@@ -92,6 +92,9 @@ modifying permissions with <b>chmod</b>
     chmod u+x 1.txt  
   
 adding write permission to user  
+
+![image](https://github.com/user-attachments/assets/835fe7a7-e7a4-450c-a8c7-5c3dde078943)
+
   
     chmod u-x 1.txt  
       
