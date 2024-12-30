@@ -33,4 +33,6 @@ set - to set func and others var
 unset- to unset setted var
 export to set env var  
   
-env - to see eviourment var
+env - to see eviourment var  
+  
+expr - to give expression
