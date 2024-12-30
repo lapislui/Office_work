@@ -13,10 +13,12 @@ learning about Basic Linux command
     &nbsp; sudo command -to enter  
      exit - to exit from admin mode
     echo - to print some text in terminal   
-        -n - 
-        -e -  
-        \b -  
-        \n -  
+        -n - output without new line
+        -e -  all using backslashes
+        \b -  removes space bet text
+        \n -  prints in new line 
+        \t - horizontal tab
+        \v - vertical tab
           
     sudo yum install git- installing git on ubuntu
     more basic commands like pwd,whoami,date etc
