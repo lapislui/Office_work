@@ -73,3 +73,6 @@ Using multiple editor like vim
       
 saving and exiting vim editor  
   
+    sudo useradd username  
+      
+creating user 
