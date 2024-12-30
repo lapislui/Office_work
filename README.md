@@ -38,7 +38,13 @@ env - to see eviourment var
   
 expr - to give expression    
   
-    expr 21 + 2 
+    expr 21 + 2  
+      
+it prints output in terminal  
+  
+    expr 21+2  
+      
+it prints 21+2 as text on terminal
 
 
 
