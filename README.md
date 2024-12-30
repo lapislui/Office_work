@@ -95,6 +95,6 @@ adding write permission to user
   
     chmod u-x 1.txt  
       
-
+chmod is for changing file permission and chown is changing ownership permission
 
 
