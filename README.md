@@ -93,6 +93,8 @@ modifying permissions with <b>chmod</b>
   
 adding write permission to user  
   
-    chmod u-x 1.txt
+    chmod u-x 1.txt  
+      
+
 
 
