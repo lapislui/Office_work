@@ -20,6 +20,7 @@ learning about Basic Linux command
         \t - horizontal tab
         \v - vertical tab
           
-    sudo yum install git  
+    sudo yum install git   
+     
     #installing git on ubuntu
     more basic commands like pwd,whoami,date etc
