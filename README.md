@@ -15,4 +15,4 @@ learning about Basic Linux command
         \b -  
         \n -  
           
-    sudo yum install git- installing git on centos
+    sudo yum install git- installing git on ubuntu
