@@ -24,4 +24,4 @@ learning about Basic Linux command
 
 installing git on ubuntu  
 
-    more basic commands like pwd,whoami,date etc
+more basic commands like pwd,whoami,date etc
