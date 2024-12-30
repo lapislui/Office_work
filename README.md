@@ -111,3 +111,4 @@ keval:x:1000:1000::/home/keval:/bin/sh (user keval is added in system as can be 
 ![image](https://github.com/user-attachments/assets/48e37267-d8d0-4d80-bfea-a834b70e9c11)
 ![image](https://github.com/user-attachments/assets/cb7fb2ae-6dec-47f1-8902-a5e8c29b7389)
 
+![image](https://github.com/user-attachments/assets/62d7f3f7-92f5-4e15-a53b-b51d973ae687)
