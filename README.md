@@ -19,7 +19,9 @@ to list all files and folder in directory
         \b -  removes space bet text
         \n -  prints in new line 
         \t - horizontal tab
-        \v - vertical tab
+        \v - vertical tab  
+        $x- to print var in terminal  
+        $((x+y))- to print add of var in terminal
           
     'sudo yum install git'  
 
