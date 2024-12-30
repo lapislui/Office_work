@@ -54,7 +54,12 @@ this set a and prints its length on screen
     #!/bin/bash
     echo this is sample script  
       
-This sets shell to interept with 
+This sets shell to interept with  
+  
+    nano 1.sh
+    sh 1.sh
+
+Saving shell script  and running it 
 
 
 
