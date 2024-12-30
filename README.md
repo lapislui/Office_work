@@ -75,4 +75,8 @@ saving and exiting vim editor
   
     sudo useradd username  
       
-creating user 
+creating user  
+after creating user in system its foldr will be displayed in home user folder   
+  
+    cd ..
+    ls
