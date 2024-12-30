@@ -22,5 +22,6 @@ learning about Basic Linux command
           
     'sudo yum install git'  
 
-#installing git on ubuntu
+    installing git on ubuntu  
+
     more basic commands like pwd,whoami,date etc
