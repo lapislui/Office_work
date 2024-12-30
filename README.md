@@ -62,4 +62,7 @@ This sets shell to interept with
 Saving shell script  and running it 
 
 Using multiple editor like vim 
-
+-> using multiple commands like:
+-> i - text before cursor
+-> O - text on prev line
+-> o - text on next line
