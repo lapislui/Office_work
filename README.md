@@ -8,6 +8,7 @@ learning about Basic Linux command
     &nbsp; rm -r - for removing dirctory
     cd - to change working directory  
     touch - create new file
+    yum install package_name- to install any application 
     echo - to print some text in terminal   
         -n -   
         -e -  
