@@ -13,4 +13,6 @@ learning about Basic Linux command
         -n -   
         -e -  
         \b -  
-        \n -
+        \n -  
+          
+    sudo yum install git- installing git on centos
