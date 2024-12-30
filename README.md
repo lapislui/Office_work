@@ -1,5 +1,6 @@
 learning about Basic Linux command  
-    ls - to list all files and folder in directory   
+    'ls'
+to list all files and folder in directory   
     mkdir - to make directory in current working folder  
     cp   - to copy file from one location to other   
     &nbsp; 'cp file_name location'  
