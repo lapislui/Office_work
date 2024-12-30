@@ -49,7 +49,12 @@ it prints 21+2 as text on terminal
     a=hello  
     expr length $a  
       
-this set a and prints its length on screen
+this set a and prints its length on screen  
+  
+    #!/bin/bash
+    echo this is sample script  
+      
+This sets shell to interept with 
 
 
 
