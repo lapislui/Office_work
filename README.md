@@ -47,7 +47,9 @@ it prints output in terminal
 it prints 21+2 as text on terminal  
   
     a=hello  
-    expr length $a
+    expr length $a  
+      
+this set a and prints its length on screen
 
 
 
