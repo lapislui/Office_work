@@ -31,4 +31,6 @@ more basic commands like pwd,whoami,date etc
   
 set - to set func and others var
 unset- to unset setted var
-export to set env var 
+export to set env var  
+  
+env - to see eviourment var
