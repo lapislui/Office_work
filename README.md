@@ -85,4 +85,6 @@ after creating user in system its foldr will be displayed in home user folder
 now creating group  
   
     sudo groupadd grp1
-    
+    groups  
+      
+modifying permissions with <b>chmod</b>
