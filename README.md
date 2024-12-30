@@ -27,4 +27,7 @@ to list all files and folder in directory
 
 installing git on ubuntu  
 
-more basic commands like pwd,whoami,date etc
+more basic commands like pwd,whoami,date etc  
+  
+set - to set func and others var
+unset- to unset setted var
