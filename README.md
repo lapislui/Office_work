@@ -92,9 +92,12 @@ modifying permissions with <b>chmod</b>
     chmod u+x 1.txt  
   
 adding write permission to user  
+
+
+
   
     chmod u-x 1.txt  
       
 chmod is for changing file permission and chown is changing ownership permission
 
-
+![image](https://github.com/user-attachments/assets/835fe7a7-e7a4-450c-a8c7-5c3dde078943)
