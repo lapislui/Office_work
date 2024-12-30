@@ -66,3 +66,5 @@ Using multiple editor like vim
 -> i - text before cursor
 -> O - text on prev line
 -> o - text on next line
+-> a - append text after cursor
+-> A - append at end of line
