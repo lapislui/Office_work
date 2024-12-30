@@ -8,11 +8,15 @@ learning about Basic Linux command
     &nbsp; rm -r - for removing dirctory
     cd - to change working directory  
     touch - create new file
-    yum install package_name- to install any application 
+    yum install package_name- to install any application   \
+    sudo su - to enter admin mode  
+    &nbsp; sudo command -to enter  
+     exit - to exit from admin mode
     echo - to print some text in terminal   
-        -n -   
+        -n - 
         -e -  
         \b -  
         \n -  
           
     sudo yum install git- installing git on ubuntu
+    more basic commands like pwd,whoami,date etc
