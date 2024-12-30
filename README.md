@@ -61,12 +61,12 @@ This sets shell to interept with
 
 Saving shell script  and running it 
 
-Using multiple editor like vim 
--> using multiple commands like:
--> i - text before cursor
--> O - text on prev line
--> o - text on next line
--> a - append text after cursor
+Using multiple editor like vim   
+-> using multiple commands like:  
+-> i - text before cursor  
+-> O - text on prev line  
+-> o - text on next line  
+-> a - append text after cursor  
 -> A - append at end of line  
   
     :wq  
