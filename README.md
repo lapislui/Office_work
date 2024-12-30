@@ -4,8 +4,10 @@ learning about Basic Linux command
     cp   - to copy file from one location to other   
      'cp file_name location'  
     mv - to move file from one location to other   
-    rm -to remove/delete filefom one location to other   
+    rm -to remove/delete filefom one location to other  
+    &nbsp; rm -r - for removing dirctory
     cd - to change working directory  
+    touch - create new file
     echo - to print some text in terminal   
         -n -   
         -e -  
