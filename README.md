@@ -1,6 +1,6 @@
 learning about Basic Linux command  
 
-    'ls'
+    ls
 to list all files and folder in directory   
 mkdir - to make directory in current working folder  
 cp   - to copy file from one location to other   
