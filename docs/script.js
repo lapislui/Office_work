@@ -3,5 +3,5 @@ document.write("okayari");
 console.log("webpage log");
 var x=5
 if (x==5) {
-    document.write("output is true");
+    .write("output is true");
 }
