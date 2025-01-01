@@ -49,3 +49,9 @@ else:
 
 Answer: A decorator is a function that takes another function as input and extends or modifies its behavior without changing the original function.
 
+Syntax:
+@decorator_name
+def some_function():
+    pass
+
+C
