@@ -66,3 +66,5 @@ def say_hello():
 say_hello()
 
 
+"4. Explain the purpose of __init__ in Python classes."
+
