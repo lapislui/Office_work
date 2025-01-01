@@ -55,9 +55,4 @@ def some_function():
     pass
 
 COde:
-def greet(*args, **kwargs):
-    print("Positional arguments:", args)
-    print("Keyword arguments:", kwargs)
-
-greet("Alice", "Bob", greeting="Hello", age=30)
 
