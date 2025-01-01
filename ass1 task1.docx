@@ -65,15 +65,4 @@ def say_hello():
 
 say_hello()
 
-class MyClass:
-    def __init__(self, param1, param2):
-        self.param1 = param1  # Initialize instance attributes
-        self.param2 = param2
-
-# Creating an instance of MyClass
-obj = MyClass("value1", "value2")
-
-# Accessing object attributes
-print(obj.param1)  # Output: value1
-print(obj.param2)  # Output: value2
 
