@@ -55,3 +55,16 @@ def some_function():
     pass
 
 COde:
+# A decorator to log function calls
+def log_execution(func):
+    def wrapper(*args, **kwargs):
+        print(f"Executing {func.__name__}...")
+        return func(*args, **kwargs)
+    return wrapper
+
+@log_execution
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Test the decorated function
+greet("Alice")
