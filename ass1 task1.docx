@@ -34,18 +34,3 @@ except TypeError as e:
 
 2.) Write a Python program to check if a number is a palindrome.
 
-def is_palindrome(string):
-    # Remove spaces and convert to lowercase for uniform comparison
-    processed_string = ''.join(string.lower().split())
-    
-    # Check if the string reads the same forward and backward
-    return processed_string == processed_string[::-1]
-
-# Input from the user
-user_input = input("Enter a string to check if it's a palindrome: ")
-
-# Check and display the result
-if is_palindrome(user_input):
-    print(f'"{user_input}" is a palindrome!')
-else:
-    print(f'"{user_input}" is not a palindrome.')
