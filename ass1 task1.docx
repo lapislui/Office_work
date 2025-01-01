@@ -3,7 +3,7 @@
 Understanding Mutable :
 mutable data types are which value can be changed after creation
 
-Eg:List ,dictionaries and sets
+List ,dictionaries and sets are mutable data
 
 Immutable Types 
 
