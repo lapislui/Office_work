@@ -29,3 +29,8 @@ try:
     my_tuple[0] = 10  # Attempt to change the first element
 except TypeError as e:
     print("Error:", e)  # Will raise a TypeError
+
+
+
+"2.) Write a Python program to check if a number is a palindrome.
+"
