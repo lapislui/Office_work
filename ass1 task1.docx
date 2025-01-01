@@ -73,7 +73,7 @@ In Python, the __init__ method is like the setup function for an object when its
 "5. What is the difference between a list and a tuple? When would you use each?"
 
 
-List
+List v/s
 Tuple
 Syntax
 my_list = [1, 2, 3]
