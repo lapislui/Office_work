@@ -3,7 +3,7 @@
 Understanding Mutable :
 mutable data types are which value can be changed after creation
 
-List ,dictionaries and sets are mutable data
+List ,dictionaries and sets are mutable data types in Python
 
 Immutable Types 
 
