@@ -9,7 +9,7 @@ Eg code:
 # List (mutable)
 my_list = [1, 2, 3]
 print("Original List:", my_list)  # [1, 2, 3]
-my_list.append(4)  # Modify the list
+my_list.append(4)  st
 print("Modified List:", my_list)  # [1, 2, 3, 4]
 
 
