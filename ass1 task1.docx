@@ -19,6 +19,7 @@ in which data types modification cannot be done are caled immutable datatypes
 tuples are immutable
 
 Eg code:
+
 # Tuple (immutable)
 my_tuple = (1, 2, 3)
 print("Original Tuple:", my_tuple)  # (1, 2, 3)
