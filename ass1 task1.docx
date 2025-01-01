@@ -1,7 +1,9 @@
 1 .) Describe the difference between mutable and immutable types in Python. Provide examples. 
 
 Understanding Mutable :
-mutable data types are which value can be cha
+mutable data types are which value can be changed after creation
+
+
 
 Immutable Types 
 
