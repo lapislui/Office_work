@@ -6,4 +6,4 @@ mutable data types are which value can be changed after creation
 List ,dictionaries and sets are mutable data types in Python
 
 Immutable Types :
-in which data types modification cannot be done
+in which data types modification cannot be done are caled immutable 
