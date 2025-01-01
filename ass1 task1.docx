@@ -35,12 +35,9 @@ except TypeError as e:
 2.) Write a Python program to check if a number is a palindrome.
 
 def is_palindrome(string):
-    # Normalize the string: lowercase and remove spaces
     string = string.lower().replace(" ", "")
-    # Check if the string is equal to its reverse
     return string == string[::-1]
 
-# Get user input and check if it's a palindrome
 user_input = input("Enter a word or phrase: ")
 if is_palindrome(user_input):
     print("It is a palindrome.")
