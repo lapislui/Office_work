@@ -4,5 +4,5 @@ do
     git add . 
     git commit -m "creation commit"
     git push
-skip 15;
+skip 1500;
 done
