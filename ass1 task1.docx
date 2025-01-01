@@ -56,3 +56,11 @@ def some_function():
 
 COde:
 
+def decorator(func):
+    return func
+
+@decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
