@@ -50,4 +50,4 @@ else:
 Answer: A decorator is a function that takes another function as input and extends or modifies its behavior without changing the original function.
 
 
-A decorator in Python is a function that takes another function (or method) as input and extends or modifies its behavior without changing the original function's structure
+
