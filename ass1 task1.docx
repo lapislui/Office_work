@@ -68,3 +68,5 @@ say_hello()
 
 "4. Explain the purpose of __init__ in Python classes."
 
+In Python, the __init__ method is like the setup function for an object when it’s created. It's automatically called when you create a new instance of a class. Think of it as a way to assign values to the object’s attributes (its properties or features) right when it is made.
+
