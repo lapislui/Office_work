@@ -40,5 +40,12 @@ if (a<6) {
 } else {
     document.writeln("<br> a is greater than 6 = ",a);
 }
-document.writeln(
-,);
+
+switch (a) {
+    case 10:
+        document.writeln('<br> this is switch case ');
+        break;
+
+    default:
+        break;
+}
