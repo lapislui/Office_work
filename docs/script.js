@@ -1,5 +1,5 @@
     // alert("Welcome to sigzen");
-document.writeln("okayari\n");
+document.writeln("okayari");
 document.writeln("")
 console.log("webpage log");
 var x=5
