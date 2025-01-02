@@ -107,3 +107,7 @@ document.writeln('<br> ',name1);
 document.writeln('<br> ',name1.firstname);
 document.writeln('<br> ',name1["lastname"]);
 document.writeln('<br> ',name1.skills["operating system"]);
+
+for(let porp in name1){
+    console/log(porp);
+}
