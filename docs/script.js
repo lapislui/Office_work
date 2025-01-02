@@ -27,10 +27,16 @@ document.writeln(typeof(num1)," = ",num1);
 document.writeln("<br>\n true bool"," = ",true_bool);
 document.writeln("<br>false bool"," = ",typeof(false_bool));
 
-let a=0
+let a=5
 while (a<10) {
     document.writeln("<br>",a);
     a++;
 }
 // let x = 10<20;
 // document.write("<br>",x);
+
+if (a<6) {
+    document.writeln("<br>,")
+} else {
+    
+}
