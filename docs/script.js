@@ -5,3 +5,4 @@ var x=5
 if (x==5) {
     console.log("output is true");
 }
+
