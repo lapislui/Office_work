@@ -82,3 +82,6 @@ setTimeout(function () {
     document.writeln('<br> this is timeout func');
 },2000);
 
+const obj_name={
+    
+}
