@@ -54,3 +54,7 @@ function name(firstname,lastname) {
     document.writeln('<br> name is'+firstname+lastname);
 }
 name(" keval ","patel");
+
+function display(result){
+    document.writeln('<br>',);
+}
