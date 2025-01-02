@@ -56,5 +56,6 @@ function name(firstname,lastname) {
 name(" keval ","patel");
 
 function display(result){
-    document.writeln('<br>',);
+    document.writeln('<br>',result);
 }
+function add(n1,n2,cb)
