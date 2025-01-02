@@ -25,5 +25,7 @@ let false_bool = false;
 
 document.writeln(typeof(num1)," = ",num1);
 document.writeln("<br>\n true bool"," = ",true_bool);
-document.writeln("false bool"," = ",typeof(false_bool));
+document.writeln("<br>false bool"," = ",typeof(false_bool));
 
+// let x = 10<20;
+// document.write("<br>",x);

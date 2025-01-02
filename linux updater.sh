@@ -1,8 +1,8 @@
 #!/bin/bash
-while [ true ] ;
-do
+# while [ true ] ;
+# do
     git add . 
     git commit -m "$(date)"
     git push
-sleep 10
-done
+# sleep 60
+# done
