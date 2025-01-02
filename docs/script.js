@@ -119,3 +119,14 @@ name1.lastname = "patel";
 name1.age = 20;
 
 document.writeln('<br>',name1);
+
+//js object method
+
+const name1 = {
+    firstname: "keval",
+    lastname: "patel",
+    greet: function greet(){
+        document.writeln('<br>hello world');
+    }
+}
+name1.greet();
