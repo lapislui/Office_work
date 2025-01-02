@@ -63,4 +63,4 @@ function add(n1,n2,cb){
     cb(sum)
 }
 
-add(10,20,)
+add(10,20,display);
