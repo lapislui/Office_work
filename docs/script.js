@@ -77,3 +77,7 @@ document.writeln('<br>',sum(10,20));
         document.writeln('<br> wolcome to sigzem');
     }
 )();
+
+setTimeout(function () {
+    document.writeln('<br> this is tim');
+})
