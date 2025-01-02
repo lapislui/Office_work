@@ -20,6 +20,7 @@ let fn = "keval";
 let ln = 'patel';
 let num1 =100;
 let num2 = 96.5;
-let 
+let true_bool = true;
+let false
 
 document.writeln(typeof(num1)," = ",num1);
