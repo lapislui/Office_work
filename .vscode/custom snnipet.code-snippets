@@ -3,7 +3,7 @@
 		"scope": "javascript,typescript",
 		"prefix": "pr",
 		"body": [
-			"document.writeln("<br>",);"
+			"document.writeln('<br>',);"
 		],
 		"description": "Log output to console"
 	}

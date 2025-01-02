@@ -40,3 +40,5 @@ if (a<6) {
 } else {
     document.writeln("<br> a is greater than 6 = ",a);
 }
+document.writeln(
+,);
