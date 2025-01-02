@@ -20,5 +20,6 @@ let fn = "keval";
 let ln = 'patel';
 let num1 =100;
 let num2 = 96.5;
+let 
 
 document.writeln(typeof(num1)," = ",num1);
