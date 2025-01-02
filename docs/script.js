@@ -65,6 +65,15 @@ function add(n1,n2,cb){
 
 add(10,20,display);
 
-function (params) {
-    
+//annonymous function
+let sum = function (n1,n2) {
+    return n1+n2;
 }
+
+document.writeln('<br>',sum(10,20));
+
+(
+    function () {
+        document.writeln('<br> wolcome to sigzem');
+    }
+)();
