@@ -90,3 +90,4 @@ const name1={
 
 document.writeln('<br> ',name1);
 document.writeln('<br> ',name1.firstname);
+document.writeln('<br> ',name1["lastname"]);
