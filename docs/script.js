@@ -60,5 +60,7 @@ function display(result){
 }
 function add(n1,n2,cb){
     let sum = n1 + n2;
-    
+    cb(sum)
 }
+
+add(10,20,)
