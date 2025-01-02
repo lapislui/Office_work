@@ -78,9 +78,9 @@ document.writeln('<br>',sum(10,20));
     }
 )();
 
-setTimeout(function () {
-    document.writeln('<br> this is timeout func');
-},2000);
+// setTimeout(function () {
+//     document.writeln('<br> this is timeout func');
+// },2000);
 
 const name1={
     firstname:"keval",
@@ -89,3 +89,4 @@ const name1={
 }
 
 document.writeln('<br> ',name1);
+document.writeln('<br> ',name1.firstname);
