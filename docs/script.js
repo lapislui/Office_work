@@ -64,3 +64,7 @@ function add(n1,n2,cb){
 }
 
 add(10,20,display);
+
+function (params) {
+    
+}
