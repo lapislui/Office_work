@@ -85,9 +85,25 @@ document.writeln('<br>',sum(10,20));
 const name1={
     firstname:"keval",
     lastname:"patel",
-    age:20
+    age:20,
+    skills:{
+        "software development":"python",
+        "framework":"frappe",
+        "database":"mysql",
+        "operating system":"windows","linux",
+        "android dev":"java"
+    }
 }
 
 document.writeln('<br> ',name1);
 document.writeln('<br> ',name1.firstname);
+document.writeln('<br> ',name1["lastname"]);
+
+name1.firstname="techguru"
+
+delete name1.age;
+
+document.writeln('<br> ',name1);
+document.writeln('<br> ',name1.firstname);
+document.writeln('<br> ',name1["lastname"]);
 document.writeln('<br> ',name1["lastname"]);
