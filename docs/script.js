@@ -1,6 +1,6 @@
     // alert("Welcome to sigzen");
 document.writeln("okayari");
-document.writeln("")
+document.writeln("hi")
 console.log("webpage log");
 var x=5
 if (x==5) {
