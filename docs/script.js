@@ -58,4 +58,7 @@ name(" keval ","patel");
 function display(result){
     document.writeln('<br>',result);
 }
-function add(n1,n2,cb)
+function add(n1,n2,cb){
+    let sum = n1 + n2;
+    
+}
