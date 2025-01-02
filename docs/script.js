@@ -113,3 +113,9 @@ for(let porp in name1){
 
 }
 
+const name1 = new Object();
+name1.firstname = "keval";
+name1.lastname = "patel";
+name1.age = 20;
+
+document.writeln('<br>',name1);
