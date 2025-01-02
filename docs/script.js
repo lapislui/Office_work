@@ -82,6 +82,10 @@ setTimeout(function () {
     document.writeln('<br> this is timeout func');
 },2000);
 
-const obj_name={
-    
+const name1={
+    firstname:"keval",
+    lastname:"patel",
+    age:20
 }
+
+document.writeln('<br> ',name1);
