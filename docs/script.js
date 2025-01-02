@@ -49,3 +49,8 @@ switch (a) {
     default:
         break;
 }
+
+function name(firstname,lastname) {
+    document.writeln('<br> name is'+firstname+lastname);
+}
+name(" keval ","patel");
