@@ -27,5 +27,15 @@
         "required": [],
         "idx": 3,
         "version": "15.47.5"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "7e19a1283370be1366f1100fc38f1d996ef5b048",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "16.0.0-dev"
     }
 }

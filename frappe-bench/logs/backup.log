@@ -1,0 +1,128 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_94ed43c018b04db1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _94ed43c018b04db1 | /usr/bin/gzip >> ./keval/private/backups/20250106_120004-keval-database.sql.gz
+
+b'mariadb-dump: Error 1412: Table definition has changed, please retry transaction when dumping table `tabBulk Transaction Log Detail` at row: 0\n'
+Backup failed for Site keval. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 822, in backup
+    odb = scheduled_backup(
+      context = {'sites': ['keval'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9dc91839a0>
+      exit_code = 0
+      rollback_callback = None
+      site = 'keval'
+  File "apps/frappe/frappe/utils/backups.py", line 564, in scheduled_backup
+    return new_backup(
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7f9dc86ce1d0>
+  File "apps/frappe/frappe/utils/backups.py", line 621, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7f9dc86ce1d0>
+      odb = <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>
+  File "apps/frappe/frappe/utils/backups.py", line 193, in get_backup
+    self.delete_if_step_fails(self.take_dump, self.backup_path_db)
+      self = <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>
+      older_than = 6
+      ignore_files = True
+      force = True
+      last_db = False
+      last_file = False
+      last_private_file = False
+      site_config_backup_path = False
+  File "apps/frappe/frappe/utils/backups.py", line 517, in delete_if_step_fails
+    raise e
+      self = <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>
+      step = <bound method BackupGenerator.take_dump of <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>>
+      paths = ('./keval/private/backups/20250106_120004-keval-database.sql.gz',)
+      path = './keval/private/backups/20250106_120004-keval-database.sql.gz'
+  File "apps/frappe/frappe/utils/backups.py", line 512, in delete_if_step_fails
+    step()
+      self = <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>
+      step = <bound method BackupGenerator.take_dump of <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>>
+      paths = ('./keval/private/backups/20250106_120004-keval-database.sql.gz',)
+      path = './keval/private/backups/20250106_120004-keval-database.sql.gz'
+  File "apps/frappe/frappe/utils/backups.py", line 465, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+      shlex = <module 'shlex' from '/usr/lib/python3.10/shlex.py'>
+      frappe = <module 'frappe' from 'apps/frappe/frappe/__init__.py'>
+      get_app_branch = <function get_app_branch at 0x7f9dc9167400>
+      gzip_exc = '/usr/bin/gzip'
+      database_header_content = ['begin frappe metadata', '[frappe]', 'version = 15.45.1', 'branch = version-15', 'end frappe metadata', '']
+      generated_header = '-- begin frappe metadata\n-- [frappe]\n-- version = 15.45.1\n-- branch = version-15\n-- end frappe metadata\n-- \n'
+      f = <_io.TextIOWrapper name='./keval/private/backups/20250106_120004-keval-database.sql.gz' encoding='UTF-8'>
+      cmd = ['/usr/bin/mariadb-dump', '--user=_94ed43c018b04db1 --host=127.0.0.1 --port=3306 --password=um5QtDJ4nBjUZu8j --single-transaction --quick --lock-tables=false _94ed43c018b04db1']
+      extra = []
+      get_command = <function get_command at 0x7f9dc915add0>
+      bin = '/usr/bin/mariadb-dump'
+      args = ['--user=_94ed43c018b04db1', '--host=127.0.0.1', '--port=3306', '--password=um5QtDJ4nBjUZu8j', '--single-transaction', '--quick', '--lock-tables=false', '_94ed43c018b04db1']
+      bin_name = 'mariadb-dump'
+      command = 'set -o pipefail; /usr/bin/mariadb-dump --user=_94ed43c018b04db1 --host=127.0.0.1 --port=3306 --password=um5QtDJ4nBjUZu8j --single-transaction --quick --lock-tables=false _94ed43c018b04db1 | /usr/bin/gzip >> ./keval/private/backups/20250106_120004-keval-database.sql.gz'
+      self = <frappe.utils.backups.BackupGenerator object at 0x7f9dc86cf670>
+  File "apps/frappe/frappe/utils/__init__.py", line 484, in execute_in_shell
+    raise frappe.CommandFailedError(
+      cmd = 'set -o pipefail; /usr/bin/mariadb-dump --user=_94ed43c018b04db1 --host=127.0.0.1 --port=3306 --password=um5QtDJ4nBjUZu8j --single-transaction --quick --lock-tables=false _94ed43c018b04db1 | /usr/bin/gzip >> ./keval/private/backups/20250106_120004-keval-database.sql.gz'
+      verbose = False
+      low_priority = True
+      check_exit_code = True
+      shlex = <module 'shlex' from '/usr/lib/python3.10/shlex.py'>
+      tempfile = <module 'tempfile' from '/usr/lib/python3.10/tempfile.py'>
+      Popen = <class 'subprocess.Popen'>
+      stdout = <_io.BufferedRandom name=6>
+      stderr = <_io.BufferedRandom name=7>
+      kwargs = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 326, in dict_printer
+            v = deepcopy(v)
+          File "/usr/lib/python3.10/copy.py", line 146, in deepcopy
+            y = copier(x, memo)
+          File "/usr/lib/python3.10/copy.py", line 231, in _deepcopy_dict
+            y[deepcopy(key, memo)] = deepcopy(value, memo)
+          File "/usr/lib/python3.10/copy.py", line 161, in deepcopy
+            rv = reductor(4)
+        TypeError: cannot pickle '_io.BufferedRandom' object
+        
+      p = <Popen: returncode: 3 args: 'set -o pipefail; /usr/bin/mariadb-dump --user=_...>
+      exit_code = 3
+      out = b''
+      err = b'mariadb-dump: Error 1412: Table definition has changed, please retry transaction when dumping table `tabBulk Transaction Log Detail` at row: 0\n'
+      failed = 3
+frappe.exceptions.CommandFailedError: Command failed

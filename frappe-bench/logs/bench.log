@@ -103,3 +103,18 @@
 2025-01-06 11:52:42,179 LOG Installing hrms
 2025-01-06 11:52:42,179 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/hrms 
 2025-01-06 11:52:45,629 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/hrms && yarn install --check-files
+2025-01-06 11:56:27,988 DEBUG bench build --app hrms
+2025-01-06 11:56:28,253 INFO /usr/local/bin/bench build --app hrms
+2025-01-06 11:57:20,762 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-06 11:57:21,119 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-06 11:57:21,119 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-06 11:57:59,408 INFO /usr/local/bin/bench --site keval install-app erpnext
+2025-01-06 12:00:02,028 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-06 12:01:08,066 INFO /usr/local/bin/bench --site keval install-app hrms
+2025-01-06 12:05:27,403 INFO /usr/local/bin/bench --site keval install-app hrms
+2025-01-06 12:06:08,960 INFO /usr/local/bin/bench start
+2025-01-06 12:06:09,438 INFO /usr/local/bin/bench schedule
+2025-01-06 12:06:09,470 INFO /usr/local/bin/bench watch
+2025-01-06 12:06:09,497 INFO /usr/local/bin/bench serve --port 8000
+2025-01-06 12:06:09,517 INFO /usr/local/bin/bench worker
+2025-01-06 12:09:33,734 INFO /usr/local/bin/bench --site keval add-to-hosts
