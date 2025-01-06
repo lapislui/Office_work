@@ -58,3 +58,8 @@
 2025-01-06 12:07:20,220 home-hp-Desktop-office_work-Office_work-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='keval', user='Administrator') (keval::scheduled_job::frappe.oauth.delete_oauth2_data)
 2025-01-06 12:07:20,562 home-hp-Desktop-office_work-Office_work-frappe-bench:default: Job OK (keval::scheduled_job::frappe.oauth.delete_oauth2_data)
 2025-01-06 12:07:20,562 Result is kept for 600 seconds
+2025-01-06 12:34:20,799 Cleaning registries for queue: home-hp-Desktop-office_work-Office_work-frappe-bench:short
+2025-01-06 12:34:20,801 Cleaning registries for queue: home-hp-Desktop-office_work-Office_work-frappe-bench:default
+2025-01-06 12:34:20,804 Cleaning registries for queue: home-hp-Desktop-office_work-Office_work-frappe-bench:long
+2025-01-06 12:43:15,734 Worker 640e0d8f354a48cc9a957e2590e37da8 [PID 39273]: warm shut down requested
+2025-01-06 12:43:15,742 Unsubscribing from channel rq:pubsub:640e0d8f354a48cc9a957e2590e37da8

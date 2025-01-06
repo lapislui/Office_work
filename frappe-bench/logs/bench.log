@@ -118,3 +118,14 @@
 2025-01-06 12:06:09,497 INFO /usr/local/bin/bench serve --port 8000
 2025-01-06 12:06:09,517 INFO /usr/local/bin/bench worker
 2025-01-06 12:09:33,734 INFO /usr/local/bin/bench --site keval add-to-hosts
+2025-01-06 12:24:27,259 INFO /usr/local/bin/bench start
+2025-01-06 12:24:44,953 INFO /usr/local/bin/bench restart
+2025-01-06 12:24:47,666 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-06 12:24:47,963 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-06 12:24:47,964 WARNING /usr/local/bin/bench restart executed with exit code 1
+2025-01-06 12:57:19,111 INFO /usr/local/bin/bench new-app test-app
+2025-01-06 12:57:19,153 LOG creating new app test_app
+2025-01-06 12:58:29,331 LOG Installing test_app
+2025-01-06 12:58:29,334 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/test_app 
+2025-01-06 12:58:31,337 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/test_app  executed with exit code 2
+2025-01-06 12:58:31,337 WARNING /usr/local/bin/bench new-app test-app executed with exit code 1
