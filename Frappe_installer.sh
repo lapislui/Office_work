@@ -52,3 +52,4 @@ cd frappe-bench
 sudo apt install supervisor -y
 
 bench get-app --branch version-15 erpnext
+
