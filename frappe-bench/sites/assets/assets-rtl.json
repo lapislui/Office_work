@@ -6,5 +6,8 @@
     "rtl_print_format.bundle.css": "/assets/frappe/dist/css-rtl/print_format.bundle.I5TVC2H7.css",
     "rtl_report.bundle.css": "/assets/frappe/dist/css-rtl/report.bundle.KXMJQTFN.css",
     "rtl_web_form.bundle.css": "/assets/frappe/dist/css-rtl/web_form.bundle.W4JAE6WR.css",
-    "rtl_website.bundle.css": "/assets/frappe/dist/css-rtl/website.bundle.T65GS36N.css"
+    "rtl_website.bundle.css": "/assets/frappe/dist/css-rtl/website.bundle.T65GS36N.css",
+    "rtl_erpnext-web.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext-web.bundle.JNOEXWTC.css",
+    "rtl_erpnext.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext.bundle.MF7N4HGB.css",
+    "rtl_erpnext_email.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext_email.bundle.AC3JMUQS.css"
 }

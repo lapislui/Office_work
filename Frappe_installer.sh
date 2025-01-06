@@ -45,5 +45,10 @@
 
 # pip3 install frappe-bench
 
-bench init frappe-bench --frappe-path https://github.com/jaydeep-sigzen/frappe.git --version version-15
+# bench init frappe-bench --frappe-path https://github.com/jaydeep-sigzen/frappe.git --version version-15
 
+cd frappe-bench
+
+sudo apt install supervisor -y
+
+bench get-app --branch version-15 erpnext
