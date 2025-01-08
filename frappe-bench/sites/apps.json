@@ -8,10 +8,10 @@
         "idx": 1,
         "version": "15.45.1"
     },
-    "payments": {
+    "kevalsite": {
         "is_repo": true,
         "resolution": {
-            "commit_hash": "4919784ed8d80e03bc1f2384e291faa44dd083e7",
+            "commit_hash": "ad6c6f8877530ba5866e6ccbc8bb3c5d1d5a43e0",
             "branch": "develop"
         },
         "required": [],
@@ -27,15 +27,5 @@
         "required": [],
         "idx": 3,
         "version": "15.47.5"
-    },
-    "hrms": {
-        "is_repo": true,
-        "resolution": {
-            "commit_hash": "7e19a1283370be1366f1100fc38f1d996ef5b048",
-            "branch": "develop"
-        },
-        "required": [],
-        "idx": 4,
-        "version": "16.0.0-dev"
     }
 }

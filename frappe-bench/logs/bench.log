@@ -1,131 +1,184 @@
-2025-01-06 11:13:57,700 DEBUG cd frappe-bench && python3 -m venv env
-2025-01-06 11:14:02,949 DEBUG cd frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
-2025-01-06 11:14:07,074 DEBUG cd frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet wheel
-2025-01-06 11:14:09,677 LOG Getting frappe
-2025-01-06 11:14:09,677 DEBUG cd frappe-bench/apps && git clone https://github.com/jaydeep-sigzen/frappe.git --branch version-15 --depth 1 --origin upstream
-2025-01-06 11:14:24,394 LOG Installing frappe
-2025-01-06 11:14:24,395 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/frappe 
-2025-01-06 11:15:35,363 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/frappe && yarn install --check-files
-2025-01-06 11:16:04,014 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-01-06 11:16:04,015 DEBUG cd frappe-bench && bench build
-2025-01-06 11:16:04,191 INFO /usr/local/bin/bench build
-2025-01-06 11:17:30,592 LOG setting up backups
-2025-01-06 11:17:30,618 LOG backups were set up
-2025-01-06 11:17:30,619 INFO Bench frappe-bench initialized
-2025-01-06 11:20:38,896 INFO /usr/local/bin/bench new-site keval
-2025-01-06 11:25:15,352 INFO /usr/local/bin/bench enable-scheduler
-2025-01-06 11:25:23,927 INFO /usr/local/bin/bench enable-scheduler keval
-2025-01-06 11:25:35,638 INFO /usr/local/bin/bench keval enable-scheduler
-2025-01-06 11:25:40,240 INFO /usr/local/bin/bench enable-scheduler keval
-2025-01-06 11:25:46,166 INFO /usr/local/bin/bench enable-scheduler --help
-2025-01-06 11:25:56,658 INFO /usr/local/bin/bench enable-scheduler
-2025-01-06 11:26:06,189 INFO /usr/local/bin/bench enable-scheduler --site keval
-2025-01-06 11:26:22,979 INFO /usr/local/bin/bench enable-scheduler -site keval
-2025-01-06 11:26:40,654 INFO /usr/local/bin/bench enable-scheduler --site keval
-2025-01-06 11:26:57,881 INFO /usr/local/bin/bench enable-scheduler -help
-2025-01-06 11:27:20,555 INFO /usr/local/bin/bench enable-scheduler -help
-2025-01-06 11:27:28,317 INFO /usr/local/bin/bench enable-scheduler --help
-2025-01-06 11:28:11,162 INFO /usr/local/bin/bench new-site keval
-2025-01-06 11:28:42,979 INFO /usr/local/bin/bench doctor
-2025-01-06 11:29:15,086 INFO /usr/local/bin/bench --site keval enable-schedular
-2025-01-06 11:29:20,618 INFO /usr/local/bin/bench --site keval enable.schedular
-2025-01-06 11:29:43,160 INFO /usr/local/bin/bench --site keval enable-scheduler
-2025-01-06 11:29:59,390 INFO /usr/local/bin/bench --site keval doctor
-2025-01-06 11:30:19,907 INFO /usr/local/bin/bench get-app payments
-2025-01-06 11:30:20,608 LOG Getting payments
-2025-01-06 11:30:20,609 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
-2025-01-06 11:30:22,136 LOG Installing payments
-2025-01-06 11:30:22,137 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/payments 
-2025-01-06 11:30:33,385 WARNING /usr/local/bin/bench get-app payments executed with exit code 1
-2025-01-06 11:30:44,392 INFO /usr/local/bin/bench get-app payments --resolve-deps
-2025-01-06 11:31:03,973 LOG Getting payments
-2025-01-06 11:31:03,973 DEBUG cd ./apps && git clone payments --branch develop --depth 1 --origin upstream
-2025-01-06 11:31:03,976 WARNING cd ./apps && git clone payments --branch develop --depth 1 --origin upstream executed with exit code 128
-2025-01-06 11:31:03,976 WARNING /usr/local/bin/bench get-app payments --resolve-deps executed with exit code 1
-2025-01-06 11:31:09,439 INFO /usr/local/bin/bench get-app payments
-2025-01-06 11:31:10,213 LOG Getting payments
-2025-01-06 11:31:10,213 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
-2025-01-06 11:31:11,538 LOG Installing payments
-2025-01-06 11:31:11,539 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/payments 
-2025-01-06 11:31:20,273 DEBUG bench build --app payments
-2025-01-06 11:31:20,496 INFO /usr/local/bin/bench build --app payments
-2025-01-06 11:31:21,586 WARNING bench build --app payments executed with exit code 1
-2025-01-06 11:31:21,586 WARNING /usr/local/bin/bench get-app payments executed with exit code 1
-2025-01-06 11:46:11,731 INFO /usr/local/bin/bench get-app payments
-2025-01-06 11:46:14,627 INFO App moved from apps/payments to archived/apps/payments-2025-01-06
-2025-01-06 11:46:14,633 LOG Getting payments
-2025-01-06 11:46:14,634 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git --branch develop --depth 1 --origin upstream
-2025-01-06 11:46:16,133 LOG Installing payments
-2025-01-06 11:46:16,133 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/payments 
-2025-01-06 11:46:19,542 DEBUG bench build --app payments
-2025-01-06 11:46:19,708 INFO /usr/local/bin/bench build --app payments
-2025-01-06 11:46:22,396 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-01-06 11:47:25,664 INFO /usr/local/bin/bench get-app payments
-2025-01-06 11:47:27,695 INFO App moved from apps/payments to archived/apps/payments-2025-01-06_1
-2025-01-06 11:47:27,700 LOG Getting payments
-2025-01-06 11:47:27,700 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git --branch develop --depth 1 --origin upstream
-2025-01-06 11:47:29,257 LOG Installing payments
-2025-01-06 11:47:29,257 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/payments 
-2025-01-06 11:47:32,555 DEBUG bench build --app payments
-2025-01-06 11:47:32,725 INFO /usr/local/bin/bench build --app payments
-2025-01-06 11:47:35,463 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 11:47:35,759 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 11:47:35,759 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
-2025-01-06 11:47:43,471 INFO /usr/local/bin/bench restart
-2025-01-06 11:47:44,016 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 11:47:44,308 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 11:47:44,308 WARNING /usr/local/bin/bench restart executed with exit code 1
-2025-01-06 11:48:35,861 INFO /usr/local/bin/bench get-app payments
-2025-01-06 11:48:37,415 INFO App moved from apps/payments to archived/apps/payments-2025-01-06_2
-2025-01-06 11:48:37,418 LOG Getting payments
-2025-01-06 11:48:37,418 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git --branch develop --depth 1 --origin upstream
-2025-01-06 11:48:39,191 LOG Installing payments
-2025-01-06 11:48:39,192 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/payments 
-2025-01-06 11:48:42,214 DEBUG bench build --app payments
-2025-01-06 11:48:42,383 INFO /usr/local/bin/bench build --app payments
-2025-01-06 11:48:45,046 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 11:48:45,339 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 11:48:45,339 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
-2025-01-06 11:49:42,244 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
-2025-01-06 11:49:42,939 LOG Getting erpnext
-2025-01-06 11:49:42,939 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
-2025-01-06 11:50:00,920 LOG Installing erpnext
-2025-01-06 11:50:00,921 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
-2025-01-06 11:50:46,904 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
-2025-01-06 11:50:48,217 DEBUG bench build --app erpnext
-2025-01-06 11:50:48,487 INFO /usr/local/bin/bench build --app erpnext
-2025-01-06 11:50:57,662 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 11:50:58,260 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 11:50:58,261 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
-2025-01-06 11:52:31,629 INFO /usr/local/bin/bench get-app hrms
-2025-01-06 11:52:32,423 LOG Getting hrms
-2025-01-06 11:52:32,423 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
-2025-01-06 11:52:42,179 LOG Installing hrms
-2025-01-06 11:52:42,179 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/hrms 
-2025-01-06 11:52:45,629 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/hrms && yarn install --check-files
-2025-01-06 11:56:27,988 DEBUG bench build --app hrms
-2025-01-06 11:56:28,253 INFO /usr/local/bin/bench build --app hrms
-2025-01-06 11:57:20,762 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 11:57:21,119 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 11:57:21,119 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
-2025-01-06 11:57:59,408 INFO /usr/local/bin/bench --site keval install-app erpnext
-2025-01-06 12:00:02,028 INFO /usr/local/bin/bench --verbose --site all backup
-2025-01-06 12:01:08,066 INFO /usr/local/bin/bench --site keval install-app hrms
-2025-01-06 12:05:27,403 INFO /usr/local/bin/bench --site keval install-app hrms
-2025-01-06 12:06:08,960 INFO /usr/local/bin/bench start
-2025-01-06 12:06:09,438 INFO /usr/local/bin/bench schedule
-2025-01-06 12:06:09,470 INFO /usr/local/bin/bench watch
-2025-01-06 12:06:09,497 INFO /usr/local/bin/bench serve --port 8000
-2025-01-06 12:06:09,517 INFO /usr/local/bin/bench worker
-2025-01-06 12:09:33,734 INFO /usr/local/bin/bench --site keval add-to-hosts
-2025-01-06 12:24:27,259 INFO /usr/local/bin/bench start
-2025-01-06 12:24:44,953 INFO /usr/local/bin/bench restart
-2025-01-06 12:24:47,666 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
-2025-01-06 12:24:47,963 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
-2025-01-06 12:24:47,964 WARNING /usr/local/bin/bench restart executed with exit code 1
-2025-01-06 12:57:19,111 INFO /usr/local/bin/bench new-app test-app
-2025-01-06 12:57:19,153 LOG creating new app test_app
-2025-01-06 12:58:29,331 LOG Installing test_app
-2025-01-06 12:58:29,334 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/test_app 
-2025-01-06 12:58:31,337 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/test_app  executed with exit code 2
-2025-01-06 12:58:31,337 WARNING /usr/local/bin/bench new-app test-app executed with exit code 1
+2025-01-07 13:55:27,914 DEBUG cd frappe-bench && python3 -m venv env
+2025-01-07 13:55:32,286 DEBUG cd frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-01-07 13:55:35,276 DEBUG cd frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-01-07 13:57:05,390 LOG Getting frappe
+2025-01-07 13:57:05,390 DEBUG cd frappe-bench/apps && git clone https://github.com/jaydeep-sigzen/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-01-07 13:58:00,283 LOG Installing frappe
+2025-01-07 13:58:00,283 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/frappe 
+2025-01-07 13:58:44,296 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/frappe && yarn install --check-files
+2025-01-07 13:59:04,805 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-07 13:59:05,106 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-07 13:59:05,106 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-07 13:59:05,107 DEBUG cd frappe-bench && bench build
+2025-01-07 13:59:05,382 INFO /usr/local/bin/bench build
+2025-01-07 13:59:48,896 LOG setting up backups
+2025-01-07 13:59:48,910 LOG backups were set up
+2025-01-07 13:59:48,910 INFO Bench frappe-bench initialized
+2025-01-07 14:00:54,063 INFO /usr/local/bin/bench new-app kevalsite
+2025-01-07 14:00:54,073 LOG creating new app kevalsite
+2025-01-07 14:01:35,249 LOG Installing kevalsite
+2025-01-07 14:01:35,250 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/kevalsite 
+2025-01-07 14:01:38,341 DEBUG bench build --app kevalsite
+2025-01-07 14:01:38,507 INFO /usr/local/bin/bench build --app kevalsite
+2025-01-07 14:01:41,363 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-07 14:01:41,658 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-07 14:01:41,658 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-07 14:01:49,070 INFO /usr/local/bin/bench restart
+2025-01-07 14:01:49,606 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-07 14:01:49,906 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-07 14:01:49,906 WARNING /usr/local/bin/bench restart executed with exit code 1
+2025-01-07 14:02:10,355 INFO /usr/local/bin/bench start
+2025-01-07 14:02:10,853 INFO /usr/local/bin/bench worker
+2025-01-07 14:02:10,854 INFO /usr/local/bin/bench watch
+2025-01-07 14:02:10,872 INFO /usr/local/bin/bench serve --port 8000
+2025-01-07 14:02:10,948 INFO /usr/local/bin/bench schedule
+2025-01-07 14:02:33,508 INFO /usr/local/bin/bench start
+2025-01-07 14:02:33,976 INFO /usr/local/bin/bench serve --port 8000
+2025-01-07 14:02:33,982 INFO /usr/local/bin/bench schedule
+2025-01-07 14:02:34,009 INFO /usr/local/bin/bench watch
+2025-01-07 14:02:34,116 INFO /usr/local/bin/bench worker
+2025-01-07 14:04:01,660 INFO /usr/local/bin/bench --site kevalsite enable-schedular
+2025-01-07 14:04:13,347 INFO /usr/local/bin/bench --site kevalsite enable-scheduler
+2025-01-07 14:04:23,898 INFO /usr/local/bin/bench --site kevalsite.local enable-scheduler
+2025-01-07 14:05:06,635 INFO /usr/local/bin/bench new-site kevalsite
+2025-01-07 14:06:30,614 INFO /usr/local/bin/bench --site kevalsite.local enable-scheduler
+2025-01-07 14:06:40,156 INFO /usr/local/bin/bench --site kevalsite enable-scheduler
+2025-01-07 14:06:50,097 INFO /usr/local/bin/bench start
+2025-01-07 14:06:50,540 INFO /usr/local/bin/bench worker
+2025-01-07 14:06:50,636 INFO /usr/local/bin/bench watch
+2025-01-07 14:06:50,639 INFO /usr/local/bin/bench serve --port 8000
+2025-01-07 14:06:50,659 INFO /usr/local/bin/bench schedule
+2025-01-07 14:07:35,149 INFO /usr/local/bin/bench use kevalsite
+2025-01-07 14:07:39,211 INFO /usr/local/bin/bench start
+2025-01-07 14:07:39,715 INFO /usr/local/bin/bench worker
+2025-01-07 14:07:39,722 INFO /usr/local/bin/bench serve --port 8000
+2025-01-07 14:07:39,740 INFO /usr/local/bin/bench schedule
+2025-01-07 14:07:39,748 INFO /usr/local/bin/bench watch
+2025-01-07 14:54:40,793 INFO /usr/local/bin/bench start
+2025-01-07 14:55:08,495 INFO /usr/local/bin/bench list-sites
+2025-01-07 14:55:16,599 INFO /usr/local/bin/bench list-sites
+2025-01-07 14:55:33,472 INFO /usr/local/bin/bench add-site kevalsite
+2025-01-07 14:56:27,825 INFO /usr/local/bin/bench new-site kevalsite
+2025-01-07 14:56:36,473 INFO /usr/local/bin/bench use evalsite
+2025-01-07 14:56:41,715 INFO /usr/local/bin/bench use kevalsite
+2025-01-07 14:57:00,420 INFO /usr/local/bin/bench --site kevalsite enable-scheduler
+2025-01-07 14:57:11,432 INFO /usr/local/bin/bench start
+2025-01-07 14:57:38,404 INFO /usr/local/bin/bench start
+2025-01-07 14:57:54,934 INFO /usr/local/bin/bench list-sites
+2025-01-07 14:58:03,655 INFO /usr/local/bin/bench --help
+2025-01-07 14:59:09,322 INFO /usr/local/bin/bench --site kevalsite add-to-hosts
+2025-01-07 14:59:26,907 INFO /usr/local/bin/bench start
+2025-01-07 15:00:00,135 INFO /usr/local/bin/bench start
+2025-01-07 15:00:28,165 INFO /usr/local/bin/bench list-sites
+2025-01-07 15:00:51,656 INFO /usr/local/bin/bench list-sites
+2025-01-07 15:01:01,101 INFO /usr/local/bin/bench frappe list-sites
+2025-01-07 15:01:04,304 INFO /usr/local/bin/bench list-sites
+2025-01-07 15:01:20,720 INFO /usr/local/bin/bench list-sites
+2025-01-07 15:01:28,826 INFO /usr/local/bin/bench start
+2025-01-07 15:01:33,061 INFO /usr/local/bin/bench restart
+2025-01-07 15:01:33,617 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-07 15:01:33,916 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-07 15:01:33,916 WARNING /usr/local/bin/bench restart executed with exit code 1
+2025-01-07 15:02:04,905 INFO /usr/local/bin/bench start
+2025-01-08 10:55:34,499 INFO /usr/local/bin/bench start
+2025-01-08 10:55:34,984 INFO /usr/local/bin/bench serve --port 8000
+2025-01-08 10:55:35,056 INFO /usr/local/bin/bench watch
+2025-01-08 10:55:35,107 INFO /usr/local/bin/bench worker
+2025-01-08 10:55:35,150 INFO /usr/local/bin/bench schedule
+2025-01-08 10:56:09,324 INFO /usr/local/bin/bench list-sites
+2025-01-08 10:56:13,119 INFO /usr/local/bin/bench list-sites
+2025-01-08 10:56:19,789 INFO /usr/local/bin/bench --help
+2025-01-08 10:56:28,584 INFO /usr/local/bin/bench list-sites
+2025-01-08 10:56:33,455 INFO /usr/local/bin/bench list-apps
+2025-01-08 10:56:43,430 INFO /usr/local/bin/bench list-sites
+2025-01-08 10:56:56,113 INFO /usr/local/bin/bench list-site
+2025-01-08 10:56:58,998 INFO /usr/local/bin/bench list-sites
+2025-01-08 10:57:11,684 INFO /usr/local/bin/bench list-sites --help
+2025-01-08 10:57:17,163 INFO /usr/local/bin/bench --help
+2025-01-08 10:59:00,308 INFO /usr/local/bin/bench sites
+2025-01-08 10:59:43,543 INFO /usr/local/bin/bench reinstall
+2025-01-08 11:05:57,978 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-01-08 11:05:59,124 LOG Getting erpnext
+2025-01-08 11:05:59,125 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-01-08 11:06:13,551 LOG Installing erpnext
+2025-01-08 11:06:13,552 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
+2025-01-08 11:06:27,771 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
+2025-01-08 11:06:28,526 DEBUG bench build --app erpnext
+2025-01-08 11:06:28,867 INFO /usr/local/bin/bench build --app erpnext
+2025-01-08 11:07:26,745 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-08 11:07:27,120 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-08 11:07:27,121 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-08 11:07:59,998 INFO /usr/local/bin/bench start
+2025-01-08 11:08:09,621 INFO /usr/local/bin/bench start
+2025-01-08 11:08:10,146 INFO /usr/local/bin/bench watch
+2025-01-08 11:08:10,155 INFO /usr/local/bin/bench schedule
+2025-01-08 11:08:10,190 INFO /usr/local/bin/bench serve --port 8000
+2025-01-08 11:08:10,246 INFO /usr/local/bin/bench worker
+2025-01-08 11:08:42,385 INFO /usr/local/bin/bench list-apps
+2025-01-08 11:08:54,606 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-01-08 11:08:58,470 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-01-08
+2025-01-08 11:08:58,480 LOG Getting erpnext
+2025-01-08 11:08:58,481 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-01-08 11:09:21,017 LOG Installing erpnext
+2025-01-08 11:09:21,018 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
+2025-01-08 11:09:29,900 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
+2025-01-08 11:09:31,096 DEBUG bench build --app erpnext
+2025-01-08 11:09:31,471 INFO /usr/local/bin/bench build --app erpnext
+2025-01-08 11:11:41,267 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-08 11:11:41,569 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-08 11:11:41,569 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-08 11:12:15,534 INFO /usr/local/bin/bench list-apps
+2025-01-08 11:12:38,968 INFO /usr/local/bin/bench list-apps
+2025-01-08 11:12:47,381 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-01-08 11:12:52,077 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-01-08_1
+2025-01-08 11:12:52,082 LOG Getting erpnext
+2025-01-08 11:12:52,082 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-01-08 11:13:15,685 LOG Installing erpnext
+2025-01-08 11:13:15,686 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
+2025-01-08 11:13:24,460 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
+2025-01-08 11:13:25,638 DEBUG bench build --app erpnext
+2025-01-08 11:13:25,958 INFO /usr/local/bin/bench build --app erpnext
+2025-01-08 11:13:35,244 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-08 11:13:36,090 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-08 11:13:36,091 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-08 11:15:58,352 INFO /usr/local/bin/bench new-site newsite
+2025-01-08 11:23:07,321 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-01-08 11:23:23,886 INFO /usr/local/bin/bench list-sites
+2025-01-08 11:23:39,101 INFO /usr/local/bin/bench use newsite
+2025-01-08 11:24:08,964 INFO /usr/local/bin/bench --site newsite enable-scheduler
+2025-01-08 11:24:22,114 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-01-08 11:24:27,609 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-01-08_2
+2025-01-08 11:24:27,613 LOG Getting erpnext
+2025-01-08 11:24:27,613 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-01-08 11:24:48,197 LOG Installing erpnext
+2025-01-08 11:24:48,198 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
+2025-01-08 11:24:56,115 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
+2025-01-08 11:24:57,001 DEBUG bench build --app erpnext
+2025-01-08 11:24:57,316 INFO /usr/local/bin/bench build --app erpnext
+2025-01-08 11:25:06,814 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-08 11:25:07,533 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-08 11:25:07,533 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-08 11:26:58,041 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-01-08 11:28:39,717 WARNING /usr/local/bin/bench get-app --branch version-15 erpnext executed with exit code 1
+2025-01-08 11:28:44,360 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-01-08 11:28:46,079 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-01-08
+2025-01-08 11:28:46,082 LOG Getting erpnext
+2025-01-08 11:28:46,082 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-01-08 11:29:04,270 LOG Installing erpnext
+2025-01-08 11:29:04,272 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && /home/hp/Desktop/office_work/Office_work/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext 
+2025-01-08 11:29:09,064 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench/apps/erpnext && yarn install --check-files
+2025-01-08 11:29:09,748 DEBUG bench build --app erpnext
+2025-01-08 11:29:10,018 INFO /usr/local/bin/bench build --app erpnext
+2025-01-08 11:29:18,443 DEBUG cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe:
+2025-01-08 11:29:19,074 WARNING cd /home/hp/Desktop/office_work/Office_work/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2025-01-08 11:29:19,074 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2025-01-08 11:29:40,571 INFO /usr/local/bin/bench get-app --branch version-15 erpnext --resolve-deps
+2025-01-08 11:31:18,736 INFO /usr/local/bin/bench get-app --branch version-15 erpnext --resolve-deps
+2025-01-08 11:32:40,326 INFO /usr/local/bin/bench --site newsite install-app erpnext
+2025-01-08 11:35:00,008 INFO /usr/local/bin/bench start
+2025-01-08 11:35:00,621 INFO /usr/local/bin/bench watch
+2025-01-08 11:35:00,697 INFO /usr/local/bin/bench serve --port 8000
+2025-01-08 11:35:00,702 INFO /usr/local/bin/bench schedule
+2025-01-08 11:35:00,735 INFO /usr/local/bin/bench worker
+2025-01-08 11:35:13,128 INFO /usr/local/bin/bench list-apps
+2025-01-08 12:00:01,666 INFO /usr/local/bin/bench --verbose --site all backup

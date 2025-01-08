@@ -1,5 +1,6 @@
 {
  "background_workers": 1,
+ "default_site": "newsite",
  "file_watcher_port": 6787,
  "frappe_user": "hp",
  "gunicorn_workers": 9,
