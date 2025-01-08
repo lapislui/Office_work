@@ -182,3 +182,6 @@
 2025-01-08 11:35:00,735 INFO /usr/local/bin/bench worker
 2025-01-08 11:35:13,128 INFO /usr/local/bin/bench list-apps
 2025-01-08 12:00:01,666 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-08 12:24:03,808 INFO /usr/local/bin/bench backup-all-sites
+2025-01-08 12:24:33,475 INFO /usr/local/bin/bench migrate
+2025-01-08 12:53:39,098 INFO /usr/local/bin/bench /bin/bash /home/hp/Desktop/office_work/Office_work/linux updater.sh
