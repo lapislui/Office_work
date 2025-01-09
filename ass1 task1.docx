@@ -1,0 +1,86 @@
+1.) Describe the difference between mutable and immutable types in Python. Provide examples. 
+
+Understanding Mutable :
+mutable data types are which value can be changed after creation
+
+List ,dictionaries and sets are mutable data types in Python
+
+Eg code:
+# List (mutable)
+my_list = [1, 2, 3]
+print("Original List:", my_list)  # [1, 2, 3]
+my_list.append(4)  
+print("Modified List:", my_list)  # [1, 2, 3, 4]
+
+
+Immutable Types :
+in which data types modification cannot be done are caled immutable datatypes
+
+tuples are immutable
+
+Eg code:
+
+# Tuple (immutable)
+my_tuple = (1, 2, 3)
+print("Original Tuple:", my_tuple)  # (1, 2, 3)
+
+# Trying to modify a tuple directly
+try:
+   my_tuple[0] = 10  # Attempt to change the first element
+except TypeError as e:
+   print("Error:", e)  # Will raise a TypeError
+
+
+
+2.) Write a Python program to check if a number is a palindrome.
+
+def is_palindrome(string):
+   string = string.lower().replace(" ", "")
+   return string == string[::-1]
+
+user_input = input("Enter a word or phrase: ")
+if is_palindrome(user_input):
+   print("It is a palindrome.")
+else:
+   print("It is not a palindrome.")
+
+
+"3.) What are Python decorators? Provide an example of how to use one. "
+
+Answer: A decorator is a function that takes another function as input and extends or modifies its behavior without changing the original function.
+
+Syntax:
+@decorator_name
+def some_function():
+   pass
+
+COde:
+
+def decorator(func):
+   return func
+
+@decorator
+def say_hello():
+   print("Hello!")
+
+say_hello()
+
+
+"4. Explain the purpose of __init__ in Python classes."
+
+In Python, the __init__ method is like the setup function for an object when its attributes (its properties or features) right when it is made.
+
+"5. What is the difference between a list and a tuple? When would you use each?"
+
+
+List v/s
+Tuple
+Syntax
+my_list = [1, 2, 3]
+my_tuple = (1, 2, 3)
+Performance
+Slower
+Faster
+Muttability
+Yes
+No
