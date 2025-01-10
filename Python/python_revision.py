@@ -96,3 +96,4 @@ obje.value = 100
 obje.show_value()  # Value: 100
 
 del obj 
+
