@@ -27,4 +27,4 @@ class NewClass:
 obj = NewClass(10)
 obj.func()  # x = 10 
 
-print("obj.x= "+obj.x)
+print("obj.x= ",obj.x)
