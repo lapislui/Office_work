@@ -4,7 +4,7 @@ class Student:
         self.age = age
 
     def display(self):
-        print(f"Name: {self.name}, Age: {self.age}")
+        print("Name:", self.name, "Age:", self.age)
 
 student = Student("keval patel", 20)
 student.display()  # Name: keval patel, Age: 20
@@ -12,5 +12,9 @@ student.display()  # Name: keval patel, Age: 20
 a=10
 b=20
 
-a,b = b,a #
+print("Before swap: a =", a, "b =", b)
+a, b = b, a  # tuple packing and unpacking
+print("After swap: a =", a, "b =", b)
+
+
 
