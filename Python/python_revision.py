@@ -6,6 +6,11 @@ class Student:
     def display(self):
         print(f"Name: {self.name}, Age: {self.age}")
 
-# Example usage
 student = Student("keval patel", 20)
-student.display()
+student.display()  # Name: keval patel, Age: 20
+
+a=10
+b=20
+
+a,b = b,a #
+
