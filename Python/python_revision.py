@@ -28,3 +28,13 @@ obj = NewClass(10)
 obj.func()  # x = 10 
 
 print("obj.x= ",obj.x)
+
+class Welcome:
+    def __init__(self, message):
+        self.message = message
+
+    def welcome_func(self):
+        print(self.message)
+
+welcome_obj = Welcome("Welcome to the Python programming world!")
+welcome_obj.welcome_func()  # Welcome to the Python programming world!
