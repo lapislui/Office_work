@@ -20,7 +20,7 @@ cat = Cat("Whiskers")
 print(dog.speak())
 print(cat.speak())
 
-class Animal:
+class Animal: #parent class
     def __init__(self, name):
         self.name = name
 
@@ -33,21 +33,21 @@ class Animal:
     def sleep(self):
         return f"{self.name} is sleeping."
 
-class Dog(Animal):
+class Dog(Animal): #child class(parent class)
     def speak(self):
         return "Woof!"
 
     def fetch(self):
         return f"{self.name} is fetching."
 
-class Cat(Animal):
+class Cat(Animal): #child class(parent class)
     def speak(self):
         return "Meow!"
 
     def scratch(self):
         return f"{self.name} is scratching."
 
-class Bird(Animal):
+class Bird(Animal): #child class(parent class)
     def speak(self):
         return "Chirp!"
 
