@@ -85,3 +85,45 @@ set_length = len(my_set)  # Get the number of elements in the set
 # Clearing a set
 my_set.clear()  # Remove all elements from the set
 
+# Creating a tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+# Accessing elements
+first_element = my_tuple[0]  # Access first element
+last_element = my_tuple[-1]  # Access last element
+
+# Slicing a tuple
+sub_tuple = my_tuple[1:3]  # Get elements from index 1 to 2
+
+# Tuple length
+tuple_length = len(my_tuple)  # Get the number of elements in the tuple
+
+# Tuple concatenation
+another_tuple = (6, 7, 8)
+combined_tuple = my_tuple + another_tuple  # Combine two tuples
+
+# Tuple repetition
+repeated_tuple = my_tuple * 2  # Repeat the tuple twice
+
+# Checking for existence
+is_in_tuple = 3 in my_tuple  # Check if 3 is in the tuple
+
+# Iterating through a tuple
+for element in my_tuple:
+    print(element)  # Print each element in the tuple
+
+# Tuple comprehension (using a generator expression)
+squared_tuple = tuple(x**2 for x in my_tuple)  # Create a new tuple with squares of elements
+
+# Converting a list to a tuple
+my_list = [1, 2, 3]
+converted_tuple = tuple(my_list)  # Convert list to tuple
+
+# Unpacking a tuple
+a, b, c, d, e = my_tuple  # Unpack elements of the tuple into variables
+
+# Finding the index of an element
+index_of_element = my_tuple.index(3)  # Find the index of the first occurrence of 3
+
+# Counting occurrences of an element
+count_of_element = my_tuple.count(2)  # Count the number of occurrences of 2
